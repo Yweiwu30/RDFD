@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "RDFD",
+  "version": "${version}",
+  "name": "RDFD",
+  "description": "Test",
+  "authors": [
+    "0x4D2"
+  ],
+  "contact": {
+    "website": "rd.rdlevel.cn"
+  },
+  "license": "MIT",
+  "icon": "assets/RDFD/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.rdfd.rdfd.client.RDFDClient"
+    ],
+    "main": [
+      "com.rdfd.rdfd.RDFD"
+    ]
+  },
+  "mixins": [
+    "RDFD.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
-  "texture": {
+  "textures": {
     "layer0": "rdfd:item/yindoubai"
   }
 }

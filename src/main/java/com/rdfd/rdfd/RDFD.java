@@ -11,7 +11,7 @@ import org.apache.commons.logging.Log;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
-public class RDFD implements  ModInitializer{
+public class RDFD implements  ModInitializer {
     public static final String MOD_ID = "rdfd";
     public static final Logger LOGGER = LoggerFactory.getLogger("RDFD");
 

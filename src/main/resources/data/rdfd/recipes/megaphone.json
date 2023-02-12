@@ -7,7 +7,7 @@
   ],
   "key": {
     "I": {
-      "tag": "minecraft:iron_ingot"
+      "item": "minecraft:iron_ingot"
     },
     "N": {
       "item": "minecraft:note_block"

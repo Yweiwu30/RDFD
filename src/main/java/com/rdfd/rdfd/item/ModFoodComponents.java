@@ -13,5 +13,8 @@ import net.minecraft.world.World;
 import java.lang.reflect.Type;
 
 public class ModFoodComponents {
-    public static final FoodComponent YINDOUBAI = new FoodComponent.Builder().hunger(20).saturationModifier(10.0f).statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST,114514,99),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH,1,99),1.0f).meat().alwaysEdible().build();
+    public static final FoodComponent YINDOUBAI = new FoodComponent.Builder().hunger(20).saturationModifier(20.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST,114514,99),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH,1,150),1.0f)
+            .meat().alwaysEdible().build();
 }

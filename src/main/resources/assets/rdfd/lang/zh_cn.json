@@ -1,5 +1,7 @@
 {
   "itemGroup.rdfd.rdfd_group": "节奏医生饭制部",
   "item.rdfd.yindoubai": "印豆白",
-  "item.rdfd.megaphone": "扩音器"
+  "item.rdfd.yindoubai.tooltip": "好吃",
+  "item.rdfd.megaphone": "扩音器",
+  "item.rdfd.megaphone.tooltip": "↓↑"
 }

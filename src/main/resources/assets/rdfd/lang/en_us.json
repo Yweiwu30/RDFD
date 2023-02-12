@@ -1,5 +1,7 @@
 {
   "itemGroup.rdfd.rdfd_group": "Rhythm Doctor Fanmade Department",
   "item.rdfd.yindoubai": "Yin Dou Bai",
-  "item.rdfd.megaphone": "Megaphone"
+  "item.rdfd.yindoubai.tooltip": "Yummy.",
+  "item.rdfd.megaphone": "Megaphone",
+  "item.rdfd.megaphone.tooltip": "↓↑"
 }

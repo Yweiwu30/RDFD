@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "rdfd:block/otto_player" }
+  }
+}

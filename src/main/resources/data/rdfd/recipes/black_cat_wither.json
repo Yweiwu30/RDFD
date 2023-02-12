@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "3": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "7": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "result": {
+    "item": "rdfd:black_cat_wither",
+    "count": 64
+  }
+}

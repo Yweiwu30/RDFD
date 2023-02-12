@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "rdfd:black_cat_wither"
+  },
+  "result": "rdfd:roast_black_cat_wither"
+}

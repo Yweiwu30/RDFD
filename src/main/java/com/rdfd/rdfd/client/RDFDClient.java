@@ -1,6 +1,5 @@
 package com.rdfd.rdfd.client;
 
-import com.rdfd.rdfd.item.ModFoodComponents;
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

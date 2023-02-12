@@ -4,5 +4,7 @@
   "item.rdfd.yindoubai.tooltip": "Yummy.",
   "item.rdfd.megaphone": "Megaphone",
   "item.rdfd.megaphone.tooltip": "↓↑",
-  "block.rdfd.otto_player": "Otto Player"
+  "block.rdfd.otto_player": "Otto Player",
+  "item.rdfd.blackcatwither.tooltip0": "Black Cat Wither made by Nether Star.",
+  "item.rdfd.blackcatwither.tooltip1": "It is recommended to eat it after baking."
 }

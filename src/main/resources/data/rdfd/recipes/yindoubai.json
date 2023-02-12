@@ -1,11 +1,9 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:smoking",
+  "experience": 256,
+  "cookingtime": 2280,
   "ingredient": {
     "item": "minecraft:parrot_spawn_egg"
   },
-  "result": {
-    "item": "rdfd:yindoubai"
-  },
-  "experience": 100,
-  "cookingtime": 1200
+  "result": "rdfd:yindoubai"
 }

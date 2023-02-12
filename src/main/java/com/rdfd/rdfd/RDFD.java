@@ -1,5 +1,6 @@
 package com.rdfd.rdfd;
 
+import com.rdfd.rdfd.item.Megaphoneitem;
 import com.rdfd.rdfd.item.ModFoodComponents;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.impl.registry.sync.FabricRegistry;
@@ -17,8 +18,11 @@ public class RDFD implements  ModInitializer {
 
     public static final Item YINDOUBAI = new Item(new Item.Settings()
             .group(ItemGroup.FOOD).food(ModFoodComponents.YINDOUBAI));
+    public static final Item MEGAPHONE = new Megaphoneitem(new Item.Settings().group(ItemGroup.MISC).maxCount(1));
     @Override
     public void onInitialize() {
         Registry.register(Registry.ITEM, new Identifier("rdfd", "yindoubai"), YINDOUBAI);
+        Registry.register(Registry.ITEM, new Identifier("rdfd", "megaphone"), MEGAPHONE);
+
     }
 }

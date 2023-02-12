@@ -1,6 +1,5 @@
 package com.rdfd.rdfd.item;
 
-import net.fabricmc.tinyremapper.extension.mixin.common.Logger;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
@@ -10,7 +9,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 
-import java.awt.*;
 import java.util.List;
 
 public class BlackCatWitherItem extends Item {

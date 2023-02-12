@@ -11,9 +11,9 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class Megaphoneitem extends Item {
+public class MegaphoneItem extends Item {
 
-    public Megaphoneitem(Settings settings) {
+    public MegaphoneItem(Settings settings) {
         super(settings);
     }
 

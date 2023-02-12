@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " NI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "item": "rdfd:megaphone"
+  }
+}

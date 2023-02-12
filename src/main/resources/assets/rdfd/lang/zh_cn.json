@@ -3,5 +3,6 @@
   "item.rdfd.yindoubai": "印豆白",
   "item.rdfd.yindoubai.tooltip": "好吃",
   "item.rdfd.megaphone": "扩音器",
-  "item.rdfd.megaphone.tooltip": "↓↑"
+  "item.rdfd.megaphone.tooltip": "↓↑",
+  "block.rdfd.otto_player": "便携式凹凸播放器"
 }

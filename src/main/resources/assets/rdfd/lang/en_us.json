@@ -3,5 +3,6 @@
   "item.rdfd.yindoubai": "Yin Dou Bai",
   "item.rdfd.yindoubai.tooltip": "Yummy.",
   "item.rdfd.megaphone": "Megaphone",
-  "item.rdfd.megaphone.tooltip": "↓↑"
+  "item.rdfd.megaphone.tooltip": "↓↑",
+  "block.rdfd.otto_player": "Otto Player"
 }

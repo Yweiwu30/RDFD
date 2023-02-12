@@ -1,7 +1,8 @@
 package com.rdfd.rdfd;
 
-import com.rdfd.rdfd.item.Megaphoneitem;
+import com.rdfd.rdfd.item.MegaphoneItem;
 import com.rdfd.rdfd.item.ModFoodComponents;
+import com.rdfd.rdfd.item.OttoPlayer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -29,8 +30,8 @@ public class RDFD implements  ModInitializer {
 
     public static final Item YINDOUBAI = new Item(new Item.Settings()
             .group(RDFD.RDFD_GROUP).food(ModFoodComponents.YINDOUBAI));
-    public static final Item MEGAPHONE = new Megaphoneitem(new Item.Settings().group(RDFD.RDFD_GROUP).maxCount(1));
-    public static final Block OTTO_PLAYER = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0f));
+    public static final Item MEGAPHONE = new MegaphoneItem(new Item.Settings().group(RDFD.RDFD_GROUP).maxCount(1));
+    public static final OttoPlayer OTTO_PLAYER = new OttoPlayer(FabricBlockSettings.of(Material.METAL).hardness(4.0f));
     @Override
     public void onInitialize() {
         Registry.register(Registry.ITEM, new Identifier("rdfd", "yindoubai"), YINDOUBAI);

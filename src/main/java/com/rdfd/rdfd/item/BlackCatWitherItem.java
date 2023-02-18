@@ -22,7 +22,7 @@ public class BlackCatWitherItem extends Item {
 
 	@Override
 	public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-		tooltip.add(Text.translatable("item.rdfd.blackcatwither.tooltip0"));
-		tooltip.add(Text.translatable("item.rdfd.blackcatwither.tooltip1"));
+		tooltip.add(Text.translatable("item.rdfd.black_cat_wither.tooltip0"));
+		tooltip.add(Text.translatable("item.rdfd.black_cat_wither.tooltip1"));
 	}
 }

@@ -5,6 +5,7 @@
   "item.rdfd.megaphone": "扩音器",
   "item.rdfd.megaphone.tooltip": "↓↑",
   "block.rdfd.otto_player": "便携式凹兔播放器",
-  "item.rdfd.blackcatwither.tooltip0": "由下界之星生成的黑色猫猫头凋灵。",
-  "item.rdfd.blackcatwither.tooltip1": "建议烤熟后食用。"
+  "item.rdfd.black_cat_wither": "黑色猫猫头凋灵",
+  "item.rdfd.black_cat_wither.tooltip0": "由下界之星生成的黑色猫猫头凋灵。",
+  "item.rdfd.black_cat_wither.tooltip1": "建议烤熟后食用。"
 }

@@ -17,7 +17,7 @@ public class BlackCatWitherItem extends Item {
 	}
 
 	public static final FoodComponent BLACK_CAT_WITHER = new FoodComponent.Builder().hunger(6).saturationModifier(0f)
-			.statusEffect(new StatusEffectInstance(StatusEffects.WITHER,5,60),1.0f)
+			.statusEffect(new StatusEffectInstance(StatusEffects.WITHER,5,5),1.0f)
 			.meat().alwaysEdible().build();
 
 	@Override

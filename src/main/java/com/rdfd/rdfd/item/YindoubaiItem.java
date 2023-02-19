@@ -20,8 +20,8 @@ public class YindoubaiItem extends Item {
         super(settings);
     }
     public static final FoodComponent YINDOUBAI = new FoodComponent.Builder().hunger(30).saturationModifier(20.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST,114514,44),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH,1,31),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST,114514,4),1.0f)
+            //.statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH,1,31),1.0f)
             .meat().alwaysEdible().build();
 
     @Override

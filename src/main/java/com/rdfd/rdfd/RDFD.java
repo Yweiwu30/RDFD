@@ -32,21 +32,22 @@ public class RDFD implements  ModInitializer {
             .group(RDFD.RDFD_GROUP).food(YindoubaiItem.YINDOUBAI));
     public static final BlackCatWitherItem BLACK_CAT_WITHER = new BlackCatWitherItem(new Item.Settings()
             .group(RDFD.RDFD_GROUP).food(BlackCatWitherItem.BLACK_CAT_WITHER));
-    public static final MegaphoneItem MEGAPHONE = new MegaphoneItem(new Item.Settings().group(RDFD.RDFD_GROUP).maxCount(1));
-    public static final OttoPlayer OTTO_PLAYER = new OttoPlayer(FabricBlockSettings.of(Material.METAL).hardness(4.0f));
+    //public static final MegaphoneItem MEGAPHONE = new MegaphoneItem(new Item.Settings().group(RDFD.RDFD_GROUP).maxCount(1));
+    //public static final OttoPlayer OTTO_PLAYER = new OttoPlayer(FabricBlockSettings.of(Material.METAL).hardness(4.0f));
 
-    public static BlockEntityType<OttoPlayerEntity> OTTO_PLAYER_ENTITY;
+    //public static BlockEntityType<OttoPlayerEntity> OTTO_PLAYER_ENTITY;
     @Override
     public void onInitialize() {
         Registry.register(Registry.ITEM, new Identifier("rdfd", "yindoubai"), YINDOUBAI);
         Registry.register(Registry.ITEM, new Identifier("rdfd", "black_cat_wither"), BLACK_CAT_WITHER);
-        Registry.register(Registry.ITEM, new Identifier("rdfd", "megaphone"), MEGAPHONE);
-        Registry.register(Registry.BLOCK, new Identifier("rdfd", "otto_player"), OTTO_PLAYER);
+        //Registry.register(Registry.ITEM, new Identifier("rdfd", "megaphone"), MEGAPHONE);
+        /*Registry.register(Registry.BLOCK, new Identifier("rdfd", "otto_player"), OTTO_PLAYER);
         Registry.register(Registry.ITEM, new Identifier("rdfd", "otto_player"), new BlockItem(OTTO_PLAYER, new FabricItemSettings()));
         OTTO_PLAYER_ENTITY = Registry.register(
                 Registry.BLOCK_ENTITY_TYPE,
                 new Identifier("rdfd", "otto_player_entity"),
                 FabricBlockEntityTypeBuilder.create(OttoPlayerEntity::new, OTTO_PLAYER).build()
         );
+        */
     }
 }
